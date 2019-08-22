@@ -11,19 +11,19 @@ To start you off, here's what the resources in your API should look like for thi
 ```json
 {
   "places": [
-    {
-      "id": 1,
-      "name": "Italy",
-      "visa_required": false
+    { 
+      "id": 1, 
+      "name": "Italy", 
+      "visa_required": false 
     },
-    {
-      "id": 2,
-      "name": "Switzerland",
-      "visa_required": true
+    { 
+      "id": 2, 
+      "name": "Switzerland", 
+      "visa_required": true 
     },
-    {
-      "id": 3,
-      "name": "France",
+    { 
+      "id": 3, 
+      "name": "France", 
       "visa_required": false
     }
   ],
@@ -34,37 +34,19 @@ To start you off, here's what the resources in your API should look like for thi
 ### Interests
 
 An example of what an interest would like when it is initially added:
-
 ```json
-{
-  "id": 1,
-  "placeId": 1,
-  "name": "Local Market",
-  "description": "Local market where you can purchase local products and try the local food",
-  "cost": 0.0,
-  "review": ""
-}
+{ "id": 1, "placeId": 1, "name": "Local Market", "description": "Local market where you can purchase local products and try the local food", "cost": 0.00, "review": "" }
 ```
 
 An example of what an interest would like after it has been visited and reviewed:
-
 ```json
-{
-  "id": 1,
-  "placeId": 1,
-  "name": "Local Market",
-  "description": "Local market where you can purchase local products and try the local food",
-  "cost": 0.0,
-  "review": "You can definitely get things for a lower price if you are willing to bargain!"
-}
+{ "id": 1, "placeId": 1, "name": "Local Market", "description": "Local market where you can purchase local products and try the local food", "cost": 0.00, "review": "You can definitely get things for a lower price if you are willing to bargain!" }
 ```
 
 ## Story
-
 As a user, I should be able to enter in an point of interest, and associate it with a place.
 
 ### Acceptance Criteria
-
 **Given** a user has already has points of interests  
 **When** the user opens the application  
 **Then** all points of interests should be displayed with their name, description, cost, review if it's not blank and the place it is located
@@ -110,4 +92,4 @@ As a user, I should be able to enter in an point of interest, and associate it w
 ## Technical Requirements
 
 1. The application should be built using Webpack to assist your development process.
-1. For persistent data storage, use [json-server](https://github.com/typicode/json-server).
+1. For persistent data storage, use [json-server](https://github.com/typicode/json-server). 
