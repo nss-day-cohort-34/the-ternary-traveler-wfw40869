@@ -1,5 +1,5 @@
-const message = "Your Webpack application is set up and ready to go. Please start writing code."
+import init from "./dashboard.js"
 
-document.querySelector("#container").innerHTML = `<h1>${message}</h1>`
+// Render dashboard on page load
 
-console.log(message)
+init()

@@ -1,0 +1,10 @@
+.interests__article {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#interestCard__div {
+  border: 1px solid black;
+  margin: 15px;
+  padding: 15px;
+}
