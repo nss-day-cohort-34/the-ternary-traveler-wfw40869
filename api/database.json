@@ -1,0 +1,53 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Italy",
+      "visa_required": false
+    },
+    {
+      "id": 2,
+      "name": "Switzerland",
+      "visa_required": true
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "visa_required": false
+    }
+  ],
+  "interests": [
+    {
+      "id": 1,
+      "placeId": 1,
+      "name": "Local Market",
+      "description": "Local market where you can purchase local products and try the local food",
+      "cost": 0,
+      "review": ""
+    },
+    {
+      "id": 2,
+      "placeId": 2,
+      "name": "The Alps",
+      "description": "Ski resort where you can ski or snowboard",
+      "cost": 10,
+      "review": "This place is great to get local foods!"
+    },
+    {
+      "placeId": "1",
+      "name": "Winery",
+      "review": "Awesome!!!",
+      "cost": "30",
+      "description": "Tasting wine on Mt. Etna where Nero D'avola is plentiful!",
+      "id": 4
+    },
+    {
+      "placeId": "2",
+      "name": "Beer Cart",
+      "description": "Pedaling on one of these with friends while drinking beer sounds like a lot of fun!",
+      "cost": 0,
+      "review": "",
+      "id": 5
+    }
+  ]
+}

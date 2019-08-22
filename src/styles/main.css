@@ -1,0 +1,124 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 400%;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 75px;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 250%;
+  text-align: center;
+}
+
+h3 {
+  font-size: 160%;
+}
+
+h4 {
+  font-size: 120%;
+}
+
+button,
+input[type="submit"] {
+  background-color: #b693fe;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #666666;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  margin-right: 15px;
+  outline: none;
+  padding: 12px;
+  transition: background-color 0.4s;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: #8c82fc;
+}
+
+dialog {
+  background-color: #ff9de2;
+  border: none;
+  border-radius: 10px;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.inputs__fieldset {
+  display: flex;
+}
+
+fieldset {
+  border: none;
+}
+
+input,
+textarea,
+select {
+  border: none;
+  border-radius: 5px;
+  font-size: inherit;
+  font-family: inherit;
+  outline: none;
+  padding: 10px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.interest__header {
+  background: linear-gradient(rgba(33, 33, 33, 0.7), rgba(33, 33, 33, 0.7)),
+    url("https://media.giphy.com/media/FDIRQU4xku8YE/giphy.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 100px 0;
+}
+
+.interests__article {
+  background-color: #b693fe;
+  display: flex;
+  justify-content: space-evenly;
+  height: inherit;
+}
+
+#interestCard__div {
+  background-color: #7effdb;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px #666666;
+  color: #211f3a;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 15px;
+  padding: 15px 50px;
+  height: 375px;
+  width: 450px;
+}
+
+#main {
+  height: 100%;
+}

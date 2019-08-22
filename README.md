@@ -4,7 +4,6 @@ You've been asked to put together a simple application for your client, Mira. Mi
 
 Mira expects an application that has a clean user interface with easy to read text and an intuitive interface. However, it is **much** more important that the application performs the required functionality than that it looks perfect.
 
-
 To start you off, here's what the resources in your API should look like for this application:
 
 ### Places
