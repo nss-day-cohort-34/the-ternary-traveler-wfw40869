@@ -29,7 +29,6 @@ const registerListeners = () => {
                 review: ""
             }
             API.addInterest(newInterest)
-                .then(parsedInterest => console.log(parsedInterest))
                 .then(API.getInterests)
                 .then(renderInterests)
 
@@ -79,7 +78,6 @@ const registerListeners = () => {
             API.editInterest(interestId, editedInterest)
                 .then(API.getInterests)
                 .then(parsedInterests => {
-                    console.log(parsedInterests)
                     modal.innerHTML = ""
                     modal.close()
                     renderInterests(parsedInterests)

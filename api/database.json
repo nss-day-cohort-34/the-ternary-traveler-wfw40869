@@ -48,14 +48,6 @@
       "cost": 0,
       "review": "",
       "id": 5
-    },
-    {
-      "placeId": "1",
-      "name": "Test",
-      "review": "Test",
-      "cost": "1",
-      "description": "Test",
-      "id": 7
     }
   ]
 }
