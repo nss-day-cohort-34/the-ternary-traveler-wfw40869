@@ -34,19 +34,11 @@
       "review": "This place is great to get local foods!"
     },
     {
-      "placeId": "3",
-      "name": "Name",
-      "description": "Description",
-      "cost": 0,
-      "review": "",
-      "id": 3
-    },
-    {
       "placeId": "1",
       "name": "Winery",
+      "review": "Awesome!!!",
+      "cost": "30",
       "description": "Tasting wine on Mt. Etna where Nero D'avola is plentiful!",
-      "cost": 0,
-      "review": "",
       "id": 4
     },
     {
@@ -56,6 +48,14 @@
       "cost": 0,
       "review": "",
       "id": 5
+    },
+    {
+      "placeId": "1",
+      "name": "Test",
+      "review": "Test",
+      "cost": "1",
+      "description": "Test",
+      "id": 7
     }
   ]
 }
